@@ -10,5 +10,6 @@ export const ItemList = styled.li`
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius:5px;
 `

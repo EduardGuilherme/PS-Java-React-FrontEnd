@@ -2,9 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
+    justify-content:space-between;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+
 `
 export const Group = styled.div`
     display: flex;
