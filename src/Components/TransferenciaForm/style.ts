@@ -44,9 +44,10 @@ export const Input = styled.input`
     border: 1px solid #ccc;
 `
 export const Button = styled.button`
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #007bff;
     color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: none;
     border-radius: 5px;
     margin-top: 5px;
