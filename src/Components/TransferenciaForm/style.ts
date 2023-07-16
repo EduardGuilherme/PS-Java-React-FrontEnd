@@ -9,7 +9,7 @@ export const Container = styled.div`
     border-radius:5px;
 
     @media (min-width: 768px) {
-        flex-direction: row;
+        //flex-direction: row;
         justify-content: space-between;
     }
 
@@ -35,6 +35,7 @@ export const Group = styled.div`
 
 export const Label = styled.label`
     font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 5px;
 `
 
@@ -48,5 +49,6 @@ export const Button = styled.button`
     color: #fff;
     border: none;
     border-radius: 5px;
+    margin-top: 5px;
     cursor: pointer;
 `
